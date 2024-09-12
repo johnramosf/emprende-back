@@ -6,9 +6,10 @@
   "author": "John Ramos <johnalex.ramosf@gmail.com>",
   "license": "MIT",
   "private": false,
-   "scripts": {
-    "dev" : "nodemon index.js"
-   },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
   "devDependencies": {
     "nodemon": "^3.1.4"
   }
