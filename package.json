@@ -1,0 +1,12 @@
+{
+  "name": "emprende-full-stack",
+  "version": "1.0.0",
+  "description": "first nodejs yarn vercel prj",
+  "main": "index.js",
+  "author": "John Ramos <johnalex.ramosf@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
