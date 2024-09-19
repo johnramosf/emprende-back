@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-console.log("URLDB Str"+process.env.MONGODB_URL);
+//console.log("URLDB Str"+process.env.MONGODB_URL);
 mongoose.connect(process.env.MONGODB_URL).then(() => {
     console.log('Conectado a Db exitosamente')
   })
